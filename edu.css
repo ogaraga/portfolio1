@@ -123,7 +123,7 @@ main .edu #komz fieldset {
 @media screen and (max-width: 576px) {
   main .edu #komz fieldset {
     margin-left: -70px;
-    width: 100%;
+    width: auto;
     font-size: 10px;
   }
 }
@@ -144,7 +144,7 @@ main .edu #komz table {
   main .edu #komz table {
     width: auto;
     height: auto;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: -40px;
     margin-right: -10px;
   }
@@ -161,7 +161,7 @@ main .edu #komz table th {
   main .edu #komz table {
     margin-left: -25px;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 main .edu #komz table td {
@@ -176,7 +176,7 @@ main .edu #komz table td {
     height: auto;
     display: grid;
     margin: auto;
-    font-size: 18px;
+    font-size: 28px;
   }
   main .edu legend {
     margin-left: 200px;
@@ -195,6 +195,11 @@ main #boss fieldset {
   overflow: hidden;
   margin-left: 5px;
 }
+@media screen and (max-width: 576px) {
+  main #boss fieldset {
+    width: auto;
+  }
+}
 main #boss legend {
   margin-left: 200px;
   color: rgb(165, 42, 42);
@@ -212,7 +217,7 @@ main #boss table {
   main #boss table {
     margin: auto;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 main #boss table th {
@@ -227,7 +232,7 @@ main #boss table th {
   main #boss table th {
     margin: auto;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 main #boss table td {
