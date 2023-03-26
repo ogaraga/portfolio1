@@ -122,8 +122,8 @@ main .edu #komz fieldset {
 }
 @media screen and (max-width: 576px) {
   main .edu #komz fieldset {
-    margin-left: -63px;
-    margin-right: -70px;
+    margin-left: -90px;
+    margin-right: -80px;
     width: auto;
     font-size: 10px;
   }
