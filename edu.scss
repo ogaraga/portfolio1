@@ -120,7 +120,7 @@ overflow: hidden;
     // background-color: white;
     fieldset{
         margin-left: -43px;
-        overflow-x: hidden;
+        overflow: hidden;
         
     }
 
@@ -139,11 +139,11 @@ overflow: hidden;
         color: black;
         padding-left: 30px;
         margin-left: 10%;
-        @media screen and (max-width: 600px) {
-            margin-left: -20px;
-            margin-right: -20px;
+        @media screen and (max-width: 576px) {
             width: 100%;
             height: auto;
+            margin-left: -35px;
+            margin-right: -25px;
         }
     
     th{
@@ -167,18 +167,14 @@ overflow: hidden;
 
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     width: 100%;
     height: auto;
     display: grid;
-    // fieldset{
-        // margin-left: -50px;
-        // padding-left: -40px;
-    // }
 
-    // legend{
-        // margin-left: 200px;
-    // }
+    legend{
+        margin-left: 200px;
+    }
 
 }
 
@@ -194,6 +190,8 @@ overflow: hidden;
 
     fieldset{
         margin-left: -60px;
+        overflow: hidden;
+        margin-left: 5px;
     }
 
     legend{
@@ -209,6 +207,10 @@ overflow: hidden;
         color: black;
         padding-left: 30px;
         margin-left: 10%;
+        @media screen and (max-width: 576px) {
+            margin: auto;
+            width: 100%;
+        }
     
     th{
         font-size: 25px;
@@ -238,15 +240,15 @@ overflow: hidden;
     width: 100%;
     height: auto;
     display: grid;
-    // fieldset{
-        // margin-left: -50px;
-        // padding-left: -40px;
+    fieldset{
+        margin-left: -50px;
+        padding-left: -40px;
         
-    // }
+    }
 
-    // legend{
-        // margin-left: 200px;
-    // }
+    legend{
+        margin-left: 200px;
+    }
 
 }
 
