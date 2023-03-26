@@ -163,7 +163,6 @@ main .edu #komz table td {
   }
   main .edu fieldset {
     margin-left: -50px;
-    overflow-x: hidden;
   }
 }
 main #boss {
@@ -216,7 +215,6 @@ main #boss table td {
   }
   main #boss fieldset {
     margin-left: -50px;
-    overflow: hidden;
   }
   main #boss legend {
     margin-left: 200px;
@@ -226,8 +224,7 @@ main #boss table td {
   main {
     height: auto;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    padding-left: -20px;
   }
 }
 

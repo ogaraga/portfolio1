@@ -173,7 +173,6 @@ overflow: hidden;
     display: grid;
     fieldset{
         margin-left: -50px;
-        overflow-x: hidden;
     }
 
 }
@@ -238,7 +237,6 @@ overflow: hidden;
     display: grid;
     fieldset{
         margin-left: -50px;
-        overflow: hidden;
         
     }
 
@@ -253,8 +251,7 @@ overflow: hidden;
 @media screen and (max-width: 576px) {
     height: auto;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    padding-left: -20px;
    }
 
 }
