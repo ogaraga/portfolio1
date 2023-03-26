@@ -121,6 +121,10 @@ overflow: hidden;
     fieldset{
         margin-left: -43px;
         overflow: hidden;
+        @media screen and (max-width: 576px) {
+            margin-left: -60px;
+            width: 100%;
+        }
         
     }
 
@@ -177,6 +181,8 @@ overflow: hidden;
     width: 100%;
     height: auto;
     display: grid;
+    margin: auto;
+    font-size: 18px;
 
     legend{
         margin-left: 200px;

@@ -120,6 +120,12 @@ main .edu #komz fieldset {
   margin-left: -43px;
   overflow: hidden;
 }
+@media screen and (max-width: 576px) {
+  main .edu #komz fieldset {
+    margin-left: -60px;
+    width: 100%;
+  }
+}
 main .edu #komz legend {
   margin-left: 10px;
   color: rgb(165, 42, 42);
@@ -168,6 +174,8 @@ main .edu #komz table td {
     width: 100%;
     height: auto;
     display: grid;
+    margin: auto;
+    font-size: 18px;
   }
   main .edu legend {
     margin-left: 200px;
