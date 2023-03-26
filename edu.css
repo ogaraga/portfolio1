@@ -149,7 +149,7 @@ main .edu #komz table {
     margin-right: -10px;
   }
 }
-main .edu #komz table th {
+main .edu #komz table tr {
   font-size: 25px;
   padding: 10px;
   line-height: 30px;
