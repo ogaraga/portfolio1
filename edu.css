@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #999999;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+nav .dh2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1px;
+  padding: 10px;
+}
+nav .dh2 #awoks {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 40px;
+}
+nav .dh2 #awoks:hover {
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #fff;
+}
+@media screen and (max-width: 600px) {
+  nav .dh2 #awoks {
+    margin-right: 20px;
+    display: block;
+    font-size: 15px;
+    color: #000;
+  }
+  nav .dh2 #awoks:hover {
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #000;
+  }
+}
+nav #aworks {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  animation: name 15s linear infinite;
+}
+@keyframes name {
+  to {
+    color: rgb(165, 42, 42);
+    opacity: 0.5;
+  }
+}
+
+main {
+  background-color: #000;
+  width: 100%;
+  margin: auto;
+}
+main #edu {
+  text-align: center;
+  font-size: 10px;
+  width: 100%;
+}
+main #edu h1 {
+  padding-top: 80px;
+  color: rgb(165, 42, 42);
+  font-weight: bold;
+  padding-left: 65px;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+  animation: typo 4.5s steps(34) forwards infinite;
+}
+@keyframes typo {
+  from {
+    width: 0;
+  }
+  to {
+    width: 395px;
+    color: rgb(165, 42, 42);
+  }
+}
+@media screen and (max-width: 600px) {
+  main #edu {
+    width: 100%;
+    margin: auto;
+  }
+}
+main .edu {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+}
+main .edu #komz {
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+main .edu #komz fieldset {
+  margin-left: -43px;
+  overflow-x: hidden;
+}
+main .edu #komz legend {
+  margin-left: 10px;
+  color: rgb(165, 42, 42);
+}
+main .edu #komz table {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  padding-left: 30px;
+  margin-left: 10%;
+}
+@media screen and (max-width: 600px) {
+  main .edu #komz table {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 100%;
+    height: auto;
+  }
+}
+main .edu #komz table th {
+  font-size: 25px;
+  padding: 10px;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: #000;
+  color: white;
+}
+main .edu #komz table td {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  main .edu {
+    width: 100%;
+    height: auto;
+    display: grid;
+  }
+  main .edu fieldset {
+    margin-left: -50px;
+    overflow-x: hidden;
+  }
+}
+main #boss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+}
+main #boss fieldset {
+  margin-left: -60px;
+  overflow-x: hidden;
+  margin-left: 5px;
+}
+main #boss legend {
+  margin-left: 200px;
+  color: rgb(165, 42, 42);
+}
+main #boss table {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  padding-left: 30px;
+  margin-left: 10%;
+}
+main #boss table th {
+  font-size: 25px;
+  padding: 10px;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: #000;
+  color: white;
+}
+main #boss table td {
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  main #boss {
+    width: 100%;
+    height: auto;
+    display: grid;
+  }
+  main #boss fieldset {
+    margin-left: -50px;
+    overflow: hidden;
+  }
+  main #boss legend {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(153, 153, 153, 0.6);
+  width: 100%;
+  height: 10vh;
+  font-size: 15px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  color: rgb(165, 42, 42);
+}
+footer a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+}
+footer a:hover {
+  cursor: pointer;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 20px;
+  }
+}/*# sourceMappingURL=edu.css.map */

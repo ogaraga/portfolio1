@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:  #999999;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    @media screen and (max-width: 576px) {
+        padding-top: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: auto;
+    }
+    .works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1px;
+        padding: 10px;
+        #awoks{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            margin-right: 40px;
+            &:hover{
+                color: #000;
+                cursor: pointer;
+                padding: 10px;
+                border: 1px solid;
+                border-radius: 10px;
+                border-color: #fff;
+            }
+         @media screen and (max-width: 600px) {
+                margin-right: 20px;
+                display: block;
+                font-size: 15px;
+                color: #000;
+                &:hover{
+                color: #fff;
+                cursor: pointer;
+                padding: 10px;
+                border: 1px solid;                border-radius: 10px;
+                border-color: #000;
+            }
+                }
+                
+            }
+        
+        
+        #aworks{
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            animation: name 15s linear infinite;
+            @keyframes name {
+                to{
+                    color: rgb(165, 42, 42);
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+main{
+    background-color: #000;
+.heading{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 80px;
+    font-size: 25px;
+    @media screen and (max-width: 600px) {
+        width: auto;
+        margin: auto;
+    }
+    h1{
+        overflow: hidden;
+        white-space: nowrap;
+        outline: none;
+        animation: typo 2s steps(14) forwards infinite;
+           @keyframes typo{
+            from{
+                width: 0%;
+            }
+            to{
+                width: 300px;
+                color: rgb(165, 42, 42);
+            }
+        } 
+    }
+}
+
+.xperience{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 30px 0px 30px;
+    width: 100%;
+    height: 100vh;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 10px;
+        display: block;
+
+    }
+
+
+#xpat{
+    margin: 20px;
+    margin-top: -70px;
+    h1{
+        text-transform: uppercase;
+        color: rgb(165, 42, 42);
+    }
+    p, li{
+        font-size: 20px;
+        line-height: 28px;
+        word-wrap: normal;
+    }
+    h3{
+        background-color: white;
+        color: rgb(165, 42, 42);
+        width: 30%;
+        font-size: 25px;
+        font-weight: bold;
+        @media screen and (max-width: 576px) {
+            width: 50%;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        margin-top: 0px;
+        width: auto;
+        height: auto;
+    }
+}
+
+.unit{
+    padding: 20px;
+    h1{
+        text-transform: uppercase;
+        color: rgb(165, 42, 42);
+    }
+    p, li{
+        font-size: 20px;
+        line-height: 28px;
+        word-wrap: normal;
+    }
+    h3{
+        background-color: white;
+        color: rgb(165, 42, 42);
+        width: 30%;
+        font-size: 25px;
+        font-weight: bold;
+        @media screen and (max-width: 576px) {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        width: auto;
+        height: auto;
+    }
+}
+}
+}
+footer{
+    text-align: center;
+    background-color: #9999;
+    width: 100%;
+    height: 10vh;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    color: rgb(165, 42, 42);
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #fff;
+        &:hover{
+            cursor: pointer;
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+       width: 100%;
+       margin: auto; 
+       overflow: hidden;
+       padding-left: 20px;
+    }
+}
