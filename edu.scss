@@ -122,7 +122,8 @@ overflow: hidden;
         margin-left: -43px;
         overflow: hidden;
         @media screen and (max-width: 576px) {
-            margin-left: -70px;
+            margin-left: -63px;
+            margin-right: -70px;
             width: auto;
             font-size: 10px;
         }
@@ -132,6 +133,7 @@ overflow: hidden;
     legend{
         margin-left: 10px;
         color: rgb(165, 42, 42);
+        font-size: 20px;
     }
 
     
