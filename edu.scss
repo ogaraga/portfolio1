@@ -171,9 +171,14 @@ overflow: hidden;
     width: 100%;
     height: auto;
     display: grid;
-    fieldset{
-        margin-left: -50px;
-    }
+    // fieldset{
+        // margin-left: -50px;
+        // padding-left: -40px;
+    // }
+
+    // legend{
+        // margin-left: 200px;
+    // }
 
 }
 
@@ -189,8 +194,6 @@ overflow: hidden;
 
     fieldset{
         margin-left: -60px;
-        overflow-x: hidden;
-        margin-left: 5px;
     }
 
     legend{
@@ -235,14 +238,15 @@ overflow: hidden;
     width: 100%;
     height: auto;
     display: grid;
-    fieldset{
-        margin-left: -50px;
+    // fieldset{
+        // margin-left: -50px;
+        // padding-left: -40px;
         
-    }
+    // }
 
-    legend{
-        margin-left: 200px;
-    }
+    // legend{
+        // margin-left: 200px;
+    // }
 
 }
 

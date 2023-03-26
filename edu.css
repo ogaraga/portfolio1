@@ -161,9 +161,6 @@ main .edu #komz table td {
     height: auto;
     display: grid;
   }
-  main .edu fieldset {
-    margin-left: -50px;
-  }
 }
 main #boss {
   display: flex;
@@ -175,8 +172,6 @@ main #boss {
 }
 main #boss fieldset {
   margin-left: -60px;
-  overflow-x: hidden;
-  margin-left: 5px;
 }
 main #boss legend {
   margin-left: 200px;
@@ -212,12 +207,6 @@ main #boss table td {
     width: 100%;
     height: auto;
     display: grid;
-  }
-  main #boss fieldset {
-    margin-left: -50px;
-  }
-  main #boss legend {
-    margin-left: 200px;
   }
 }
 @media screen and (max-width: 576px) {
