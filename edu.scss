@@ -140,10 +140,10 @@ overflow: hidden;
         padding-left: 30px;
         margin-left: 10%;
         @media screen and (max-width: 576px) {
-            width: 100%;
+            width: auto;
             height: auto;
-            margin-left: -35px;
-            margin-right: -25px;
+            margin-left: -40px;
+            margin-right: -10px;
         }
     
     th{
@@ -220,6 +220,11 @@ overflow: hidden;
         background-color: #000;
         color: white;
 
+        @media screen and (max-width: 576px) {
+            margin: auto;
+            width: 100%;
+        }
+
         // margin-bottom: 10px;
          }
 
@@ -230,7 +235,11 @@ overflow: hidden;
             background-color: #000;
             color: white;
             text-align: center;
-    
+            
+            @media screen and (max-width: 576px) {
+                margin: auto;
+                width: 100%;
+            }
          }
 
     
@@ -241,8 +250,7 @@ overflow: hidden;
     height: auto;
     display: grid;
     fieldset{
-        margin-left: -50px;
-        padding-left: -40px;
+        margin-left: -55px;
         
     }
 
