@@ -137,6 +137,7 @@ main .edu #komz table {
   main .edu #komz table {
     width: auto;
     height: auto;
+    font-size: 15px;
     margin-left: -40px;
     margin-right: -10px;
   }
@@ -148,6 +149,13 @@ main .edu #komz table th {
   border-radius: 10px;
   background-color: #000;
   color: white;
+}
+@media screen and (max-width: 576px) {
+  main .edu #komz table {
+    margin-left: -25px;
+    width: 100%;
+    font-size: 18px;
+  }
 }
 main .edu #komz table td {
   border-radius: 10px;
@@ -195,6 +203,7 @@ main #boss table {
   main #boss table {
     margin: auto;
     width: 100%;
+    font-size: 18px;
   }
 }
 main #boss table th {
@@ -209,6 +218,7 @@ main #boss table th {
   main #boss table th {
     margin: auto;
     width: 100%;
+    font-size: 18px;
   }
 }
 main #boss table td {
